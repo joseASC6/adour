@@ -1,0 +1,80 @@
+ #logo{
+    height: 60px;
+    margin-left: 50px;
+    border-top: 30px;
+} 
+
+#headerImg{
+  background-image: url(homePic.png);
+  background-size: 100% auto;
+
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+p{
+  font-size: 150%;
+  background-color: #00000052;
+}
+
+.quote{
+  font-size: 110%;
+  color:white;
+}
+
+
+
+.circle {
+    
+    border-radius: 75%;
+    height: 150px;
+    width: 150px;
+    transition: all .3s ease-in-out;
+    background-color: rgb(16, 33, 110);
+   
+}
+.circleText{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.circle:hover {
+    cursor: pointer;
+    transform: scale(1.5); 
+    background-color: #449bc3;
+    background-image: "
+    
+    
+}
+
+ .text {
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .circle.text {
+    padding-top: 30px;
+    opacity: 1;
+    
+  }
+
+ 
+  
+  footer {
+    background-color:  #449bc3;
+    text-align: center;
+    left: 0;
+    height: 125px;
+    top: 50%;
+    
+  }
+  .footerText{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+  }

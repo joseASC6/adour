@@ -1,0 +1,164 @@
+body {
+    background-color: #d5d5d5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    height: 60px;
+    float: left;
+    border-top: 30px;
+} 
+
+h2 {
+    margin: auto;
+
+}
+
+#formBox {
+    padding: auto;
+    margin-left: 15em;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    margin-left: 3em;
+    color: antiquewhite;
+    background: linear-gradient(to left, #ffe1ba, #ff7b00);
+    border-radius: 10em;
+    height: 40px;
+    width: 400px;
+}
+
+.input {
+
+    /* position:relative;
+    font-size: 1.5em;
+    background: linear-gradient(21deg, #e3f3fb, #1b3aea);
+    padding: .25em;
+    cursor: text;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    isplay: inline-block;
+    border-radius: 9999em; */
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px ;
+    
+    margin: black;
+    border-top: 100%;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    height:   150px;;
+}
+
+
+form {
+    margin: auto;
+    padding: auto;
+}
+
+div:hover {
+    cursor: text;
+    height: 20%;
+}
+
+input {
+    /* padding: 10px;
+    cursor: text;
+    font-family: inherit;
+    line-height:inherit;
+    color:#fff1f9;
+    min-width:12em; */
+}
+
+.imgF {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.link {
+    justify-content: right;
+    text-align: right;
+    
+    float: right;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    
+    position: absolute;
+
+}
+
+.navbar {
+    overflow: auto;
+
+}
+
+.name {
+    justify-content: space-evenly;
+    text-align: center;
+    display: inline;
+    
+   
+}
+
+.one {
+    justify-content: space-evenly;
+    float: left ;
+   margin: 40px;
+   width: 200px;
+   height: 500px;
+
+}
+
+#bot{
+margin-top: 200px
+}
+
+.checklist{
+display: block;
+
+justify-content: flex-start;
+    text-align: left;
+    
+    float: right;
+
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-left: 0 auto;
+    
+
+}
+#cat{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+#inf{
+    text-align: left;
+    font-size: 50px;
+    padding: none;
+}
+.list{
+    justify-content: space-evenly;
+    float: left ;
+   margin: 105px;
+   width: 200px;
+   height: 10px;
+   margin-top: 0;
+   font-size: 20px;
+   
+
+}
+

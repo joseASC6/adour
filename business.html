@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href= "d.css">
+   <script src="bmain.js" defer></script>
+   <title>Document</title>
+   <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+    apiKey: "AIzaSyAmMJRk42KuJAK6KvR2sOBeo6eCBa2sFXg",
+    authDomain: "demoday-97ae8.firebaseapp.com",
+    databaseURL: "https://demoday-97ae8.firebaseio.com",
+    projectId: "demoday-97ae8",
+    storageBucket: "",
+    messagingSenderId: "1001755037699",
+    appId: "1:1001755037699:web:3782a4aca00802c1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+</script>
+
+</head>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #449bc3;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(16, 33, 110);
+  color: white;
+}
+</style>
+
+<body>
+       
+        
+
+      
+        <div class="topnav">
+            <a> <img src="logo2.jpg" id="logo" href="index.html"></a>
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <a href="influencer.html">Influencer Form</a>
+            <a href="business.html">Business Form</a>
+
+            <a href="#login">Log In</a>
+        </div>
+
+
+
+
+
+
+<p id= "inf"><b>Business Form</b> </p> 
+     <div5 class="all">
+        <div1 class="one">
+                <img  class="imgF" src="https://banner2.kisspng.com/20180404/ddw/kisspng-computer-icons-business-symbol-shake-hands-5ac5269235d529.6889735015228699062205.jpg"> <b>business  name :</b><br>
+               
+                <img class="imgF"  id= "bot" src="https://icon-library.net/images/social-media-icon-pngs/social-media-icon-pngs-24.jpg"> <b>social media name:</b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              
+        </div1>
+        <div2 class="one">
+                <input id="byoutubechannelname" class="input" type="text" placeholder="Business Name">
+                <br>
+                <textarea rows="4" cols="100" id="binstagram" class="input" type="text" placeholder="YouTube Name
+Instagram Name"></textarea>
+
+                
+        </div2>
+
+        <div3 class="one">
+                <input id="bsub" class="input" type="text" placeholder="Number of Employees"> <br>
+                <!-- <input id="bfollowers" class="input" type="text" placeholder="number of followers"> <br> -->
+                <textarea rows="4" cols="100"  id="bfollowers" class="input"  type = "text" placeholder="Number of Youtube Subscribers 
+Number of Instagram Followers"
+></textarea>
+        </div3>
+        <div4 class="one">
+            <input id="bylink" class="input" type="text"  placeholder="Link Your Business Page Here"> <br>
+            <textarea rows="4" cols="100" id="bilink" class="input" type="text" placeholder="Link Social Media Pages Here"></textarea>
+        </div4>
+        
+      </div5><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   <form> 
+      
+        <input id="productinfo" class="input" type="text" placeholder="What is the Product Your Business is Looking to Advertise">
+       <br>
+        <input id="infotype" class="input" type="text" placeholder="What Type of Influencers Are You Looking to Promote Your Product?">
+        <br>
+        <div11 id="cat">Categories</div11>
+        <form9 class="checklist" style = "margin-top: 0px;"> 
+                <div10 class="s">
+                  
+                    <div7 class="list" >
+                   <br><input type="checkbox" name="category" value="SPORTS"> <b>Sports</b>
+                   <br><input type="checkbox" name="category" value="tech" > <b>Tech</b>
+                   <br><input type="checkbox" name="category" value="fashion" ><b>Fashion</b>
+                   <br><input type="checkbox" name="category" value="health" > <b>Health</b>
+                  </div7>
+                  <div8 class="list">
+                   <br><input type="checkbox" name="category" value="education" ><b>Education</b> 
+                  <br><input type="checkbox" name="category" value="advertising" > <b>Advertising</b>
+                  <br> <input type="checkbox" name="category" value="shoes" > <b>Shoes</b>
+                  <br><input type="checkbox" name="category" value="hiking" > <b>Hiking</b>
+                </div8>
+                <div9 class="list">
+                  <br> <input type="checkbox" name="category" value="skateboard" > <b>Skateboard</b>
+                  <br> <input type="checkbox" name="category" value="computers" ><b>Computers</b> 
+                  <br><input type="checkbox" name="category" value="phones" > <b>Phones</b>  
+                  <br><input type="text" name="category" value="" placeholder="other">
+                  </div9>
+                </div10>
+                    </form9>
+          <div6><br>
+                <h1>Description:<br></h1>
+                 <input id="bdescription" class="input" type="text" placeholder="Your Company's Mission" >
+                 <br>
+          
+              
+          
+          
+          
+          
+              </div6>
+                     <button id = "submitButton">Submit</button>
+                     </form>
+  </body>
+</html>
+   

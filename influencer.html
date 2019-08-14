@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href= "d.css">
+   <script src="main.js" defer></script>
+   <title>Document</title>
+   <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+<script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAmMJRk42KuJAK6KvR2sOBeo6eCBa2sFXg",
+          authDomain: "demoday-97ae8.firebaseapp.com",
+          databaseURL: "https://demoday-97ae8.firebaseio.com",
+          projectId: "demoday-97ae8",
+          storageBucket: "",
+          messagingSenderId: "1001755037699",
+          appId: "1:1001755037699:web:28b824278de353c3"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+
+</head>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #449bc3;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(16, 33, 110);
+  color: white;
+}
+</style>
+
+<body>
+       
+        
+
+  <div class="topnav">
+    <img src="logo2.jpg" id="logo" >
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#contact">Contact</a>
+    <a href="influencer.html">Influencer Form</a>
+    <a href="business.html">Business Form</a>
+
+    <a href="#login">Log In</a>
+</div>
+
+
+
+
+
+
+<p id= "inf"><b>Influencer Form</b> </p> 
+     <div5 class="all">
+        <div1 class="one">
+                <img  class="imgF" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png"> <b>Youtube channel :</b><br>
+               
+                <img class="imgF"  id= "bot" src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png"> <b>Instagram name:</b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              
+        </div1>
+        <div2 class="one">
+                <input id="youtubechannelname" class="input" type="text" placeholder="Yotube channel name">
+                <br>
+                <input id="instagram" class="input" type="text" placeholder="Instagram name">
+
+                
+        </div2>
+
+        <div3 class="one">
+                <input id="ysubs" class="input" type="text" placeholder="number of subscribers"> <br>
+                <input id="followers" class="input" type="text" placeholder="number of followers"> <br>
+        </div3>
+        <div4 class="one">
+            <input id="ylink" class="input" type="text" placeholder="Link your Youtube page here"> <br>
+            <input id="ilink" class="input" type="text" placeholder="Link Instagram page here"> <br>
+        </div4>
+      </div5><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   <form> 
+      
+        <input id="payday" class="input" type="text" placeholder="Describe the type of pay you wpuld like?">
+       <br>
+        <input id="adtype" class="input" type="text" placeholder="What type of product are you looking to advertise">
+        <br>
+        <div11 id="cat">Categories</div11>
+        <form9 class="checklist" style = "margin-top: 0px;"> 
+                <div10 class="s">
+                  
+                    <div7 class="list" >
+                   <br><input type="checkbox" name="category" value="SPORTS"> <b>Sports</b>
+                   <br><input type="checkbox" name="category" value="tech" > <b>Tech</b>
+                   <br><input type="checkbox" name="category" value="fashion" ><b>Fashion</b>
+                   <br><input type="checkbox" name="category" value="health" > <b>Health</b>
+                  </div7>
+                  <div8 class="list">
+                   <br><input type="checkbox" name="category" value="education" ><b>Education</b> 
+                  <br><input type="checkbox" name="category" value="advertising" > <b>Advertising</b>
+                  <br> <input type="checkbox" name="category" value="shoes" > <b>Shoes</b>
+                  <br><input type="checkbox" name="category" value="hiking" > <b>Hiking</b>
+                </div8>
+                <div9 class="list">
+                  <br> <input type="checkbox" name="category" value="skateboard" > <b>Skateboard</b>
+                  <br> <input type="checkbox" name="category" value="computers" ><b>Computers</b> 
+                  <br><input type="checkbox" name="category" value="phones" > <b>Phones</b>  
+                  <br><input type="text" name="category" value="" placeholder="other">
+                  </div9>
+                </div10>
+                    </form9>
+          <div6><br>
+                <h1>Description:<br></h1>
+                 <input id="description" class="input" type="text" placeholder="Tell us what you do" >
+                 <br>
+          
+              
+          
+          
+          
+          
+              </div6>
+                     <button id = "submitButton">Submit</button>
+                     </form>
+  </body>
+</html>
+   
