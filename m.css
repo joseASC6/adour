@@ -1,3 +1,11 @@
+.menu{
+    justify-content: space-evenly;
+    display: inline;
+}
+
+
+
+
 body {
     background-color: #d5d5d5;
     font-family: 'Montserrat', sans-serif;
@@ -45,11 +53,11 @@ button {
     background-color: #ddd;
     color: rgb(0, 0, 0);
     padding: 16px 20px ;
-    margin-bottom: 35px;
+    
     margin: black;
     border-top: 100%;
     cursor: pointer;
-    width: 90%;
+    width: 100%;
     opacity: 0.9;
     height:   150px;;
 }
@@ -161,7 +169,33 @@ justify-content: flex-start;
    
 
 }
-.topInp{
-    margin-bottom: 195px;
-    height: 26px;
+
+
+
+#logo{
+    height: 60px;
+    margin-left: 50px;
+    border-top: 30px;
+} 
+
+#headerImg{
+  background-image: url(homePic.png);
+  background-size: 100% auto;
+
+  height: 500px;
+  background-repeat: no-repeat;
 }
+#logo{
+    height: 60px;
+    margin-left: 50px;
+    border-top: 30px;
+} 
+
+body{
+    background-color: lightgray;
+}
+
+.text{
+    font-size: 150%;
+}
+

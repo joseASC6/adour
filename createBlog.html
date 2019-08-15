@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="m.css">
+    <title>Document</title>
+   
+
+
+    <script src="mmain.js" defer></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#config-web-app -->
+
+      <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyBtg0imou0Y7073tN4xU4Kl3rHW4jh-YAg",
+              authDomain: "blog-c8f30.firebaseapp.com",
+              databaseURL: "https://blog-c8f30.firebaseio.com",
+              projectId: "blog-c8f30",
+              storageBucket: "",
+              messagingSenderId: "515449859713",
+              appId: "1:515449859713:web:667df433eab1cf4f"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            
+          </script>
+          
+              <!--custom files-->
+             
+             
+
+
+</head>
+<style>
+    .topnav {
+  overflow: hidden;
+  background-color: #449bc3;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(16, 33, 110);
+  color: white;
+}
+</style>
+
+<body>
+   
+    <div class="topnav">
+        <img src="logo2.jpg" id="logo">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <a href="influencer.html">Influencer Form</a>
+        <a href="business.html">Business Form</a>
+
+        <a href="profile.html">Account</a>
+    </div>
+
+
+            
+    </div>
+
+    <div class="allMessages"> </div>
+
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Title:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Blog post:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

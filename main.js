@@ -130,8 +130,5 @@ function updateDB(event) {
         msgContainer.appendChild(dElement);
         msgContainer.appendChild(eElement);
         msgContainer.appendChild(fElement);
-        msgContainer.appendChild(gElement);
-
-
-        
+        msgContainer.appendChild(gElement);        
     }

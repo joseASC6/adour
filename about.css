@@ -7,3 +7,13 @@
 body{
     background-color: lightgray;
 }
+
+.text{
+    font-size: 150%;
+
+}
+
+
+#submitButton{
+    align-content: flex-star;
+}

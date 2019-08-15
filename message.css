@@ -5,10 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 :root {
-    --primaryDark: #36151E;
-    --primaryLight: #EDEBD7;
-    --accent: #E3B23C;
-    --alternate: #593F62;
+    --primaryDark: #000000;
+    --primaryLight: #efefee;
+    --accent: #449bc3;
+    --alternate: #000000;
     --addedPadding: 10px;
 }
 #logo{
